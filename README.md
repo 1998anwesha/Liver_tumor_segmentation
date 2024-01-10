@@ -13,7 +13,7 @@ On running this, "train" folder will be created in “imageprocessing”. Total 
 
 ## Training Liver and Tumor segmentation models
 Now open liver_segmentation.ipynb file and run it. It will generate the models folder. There are already three pre-trained models trained on 25%, 50% and 100% data in the models folder. We get following epochs.
-
+![image](https://private-user-images.githubusercontent.com/39149911/295383009-db91138e-5797-499e-99d5-499819b70a07.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ4NDk4MjIsIm5iZiI6MTcwNDg0OTUyMiwicGF0aCI6Ii8zOTE0OTkxMS8yOTUzODMwMDktZGI5MTEzOGUtNTc5Ny00OTllLTk5ZDUtNDk5ODE5YjcwYTA3LmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExMFQwMTE4NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZWRmNjZiY2ZkZmE0YzdmN2VlZGU0NWFkY2NlYmE3YWZjNmQ4ZDY1OTFkZGU5ZmUzMmIwMTliMTU2MjYxMTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hPjRv_G3MvzHTd4LSmgI3cx8yPIHpKTeFryvc1timMM)
 Run Liver_segmentation_results.ipynb to view the final outputs. Run models in models folder or using your trained version. We see results and metric information there
 
 Then run tumor_segmentation file for 25% dataset. This gives following results:
