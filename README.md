@@ -12,13 +12,16 @@ Next, open dataset_generation.ipynb in Google Colab. Follow the instructions in 
 On running this, "train" folder will be created in “imageprocessing”. Total time taken for data extraction will be around 2 hours.
 
 ## Training Liver and Tumor segmentation models
-Now open liver_segmentation.ipynb file and run it. It will generate the models folder. There are already three pre-trained models trained on 25%, 50% and 100% data in the models folder. We get following epochs.
+Now open liver_segmentation.ipynb file and run it for training ResUnet with pre-processed CT scan images and their corresponding liver masks. It will generate the models folder. There are already three pre-trained models trained on 25%, 50% and 100% data in the models folder. We get following epochs.
+
 ![image](https://private-user-images.githubusercontent.com/39149911/295383009-db91138e-5797-499e-99d5-499819b70a07.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ4NDk4MjIsIm5iZiI6MTcwNDg0OTUyMiwicGF0aCI6Ii8zOTE0OTkxMS8yOTUzODMwMDktZGI5MTEzOGUtNTc5Ny00OTllLTk5ZDUtNDk5ODE5YjcwYTA3LmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExMFQwMTE4NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZWRmNjZiY2ZkZmE0YzdmN2VlZGU0NWFkY2NlYmE3YWZjNmQ4ZDY1OTFkZGU5ZmUzMmIwMTliMTU2MjYxMTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hPjRv_G3MvzHTd4LSmgI3cx8yPIHpKTeFryvc1timMM)
-Run Liver_segmentation_results.ipynb to view the final outputs. Run models in models folder or using your trained version. We see results and metric information there
 
-Then run tumor_segmentation file for 25% dataset. This gives following results:
+Run Liver_segmentation_results.ipynb to view the outputs. Run models in models folder or using your trained version. We see results and metric information there
 
-Run Tumor_segmentation_result to view final output. Run the model in models folder or your own.
+Then run Tumor_segmentation.ipynb file for training ResUnet for with the tumor segmentation masks and segmented liver images. This gives following results:
 
-Run on 25% data for speed. Run tumor_segmentation on 100 epochs for better results.
+
+Run Tumor_segmentation_result.ipynb to view final output. You can choose any segmentation model from the 'models' folder and try running the visualization codes.
+
+Run on 25% of the data for faster training. You may run Tumor_segmentation.ipynb on 100 epochs for more accurate results.
 
