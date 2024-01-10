@@ -1,5 +1,5 @@
 # Liver_tumor_segmentation
-Using ResUnet to segment liver tumors from CT scan images.
+Using ResUnet to segment liver tumors from CT scan images. Refer to this [report](https://github.com/1998anwesha/Liver_tumor_segmentation/blob/main/Liver_tumor_segmentation_using_ResUNet.pdf) for details regarding methodology, loss metrics, results and future work.
 
 We have used Google Colab pro for this project. The training code can also work on normal Colab using T4 GPU and memory space of less than 30 GB. 
 
